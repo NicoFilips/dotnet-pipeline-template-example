@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48654E95-2B7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D65A5C1B-84B6-456D-8DB5-0FD8E70A1178}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example.Integrationtests", "dotnet-pipeline-template-example.Integrationtests\dotnet-pipeline-template-example.Integrationtests.csproj", "{A0B4B620-7DC8-4291-940B-839BAD4A046F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example.Integrationtests", "test\dotnet-pipeline-template-example.Integrationtests\dotnet-pipeline-template-example.Integrationtests.csproj", "{A0B4B620-7DC8-4291-940B-839BAD4A046F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
