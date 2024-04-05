@@ -1,4 +1,20 @@
-jobs:
-  call-external-workflow:
-    uses: NicoFilips/dotnet-pipeline-template/.github/workflows/dotnet-pipeline-template.yml@main
+name: Trigger External Workflow
 
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  trigger-external-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call external workflow via GitHub API
+        run: |
+          curl \
+            -X POST \
+            -H "Authorization: token ${{ secrets.PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/NicoFilips/dotnet-pipeline-template/actions/workflows/dotnet-pipeline-template.yml/dispatches \
+            -d '{"ref":"main"}'
