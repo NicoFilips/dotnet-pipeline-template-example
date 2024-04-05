@@ -1,4 +1,4 @@
 jobs:
   call-external-workflow:
-    uses: https://github.com/NicoFilips/dotnet-pipeline-template/.github/workflows/dotnet-pipeline-template.yml@main
+    uses: NicoFilips/dotnet-pipeline-template/.github/workflows/dotnet-pipeline-template.yml@main
 
