@@ -1,8 +1,4 @@
 jobs:
   call-external-workflow:
     uses: https://github.com/NicoFilips/dotnet-pipeline-template/.github/workflows/dotnet-pipeline-template.yml@main
-    
-    with:
-      some-input: value
-    secrets:
-      token: ${{ secrets.SOME_SECRET }}
+
