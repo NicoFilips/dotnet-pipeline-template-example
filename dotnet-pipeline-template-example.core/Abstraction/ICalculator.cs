@@ -1,4 +1,4 @@
-namespace dotnet_pipeline_template_example.domain.Abstraction;
+namespace dotnet_pipeline_template_example.core.Abstraction;
 
 public interface ICalculator
 {

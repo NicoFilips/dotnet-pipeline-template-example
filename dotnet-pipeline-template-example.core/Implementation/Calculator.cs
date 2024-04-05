@@ -1,4 +1,4 @@
-﻿namespace dotnet_pipeline_template_example.domain;
+﻿namespace dotnet_pipeline_template_example.core;
 
 public class Calculator
 {

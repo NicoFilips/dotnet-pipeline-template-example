@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example.core", "dotnet-pipeline-template-example.core\dotnet-pipeline-template-example.core.csproj", "{5C457473-5261-435E-81BE-C6F7DB61F204}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48654E95-2B73-466C-AFAF-0B335003C663}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D65A5C1B-84B6-456D-8DB5-0FD8E70A1178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,10 @@ Global
 		{5C457473-5261-435E-81BE-C6F7DB61F204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C457473-5261-435E-81BE-C6F7DB61F204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C457473-5261-435E-81BE-C6F7DB61F204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C0E90AD-C6D7-4342-A40C-34074720030F} = {48654E95-2B73-466C-AFAF-0B335003C663}
+		{5C457473-5261-435E-81BE-C6F7DB61F204} = {48654E95-2B73-466C-AFAF-0B335003C663}
+		{AC87506F-E693-4D91-B51D-065F272DB0E6} = {D65A5C1B-84B6-456D-8DB5-0FD8E70A1178}
 	EndGlobalSection
 EndGlobal

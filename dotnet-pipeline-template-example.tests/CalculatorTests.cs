@@ -1,4 +1,4 @@
-using dotnet_pipeline_template_example.domain;
+using dotnet_pipeline_template_example.core;
 using NUnit;
 using NUnit.Framework;
 using FluentAssertions;
