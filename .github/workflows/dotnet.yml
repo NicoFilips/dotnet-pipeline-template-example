@@ -1,8 +1,14 @@
+name: Use Dotnet Pipeline Template
+
+on:
+  push:
+    branches: 
+      - main
+  workflow_dispatch:
+
 jobs:
-  call-external-workflow:
-    uses: https://github.com/NicoFilips/dotnet-pipeline-template/.github/workflows/dotnet-pipeline-template.yml@main
-    
+  call-template-workflow:
+    uses: NicoFilips/dotnet-pipeline-template/.github/workflows/dotnet-pipeline-template.yml@main
     with:
-      some-input: value
-    secrets:
-      token: ${{ secrets.SOME_SECRET }}
+      publish: true
+
