@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\dotnet-pipeline-template-example.core\dotnet-pipeline-template-example.core.csproj" />
+      <ProjectReference Include="..\..\src\dotnet-pipeline-template-example.core\dotnet-pipeline-template-example.core.csproj" />
     </ItemGroup>
 
 </Project>

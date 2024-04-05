@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example", "dotnet-pipeline-template-example\dotnet-pipeline-template-example.csproj", "{5C0E90AD-C6D7-4342-A40C-34074720030F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example", "src\dotnet-pipeline-template-example\dotnet-pipeline-template-example.csproj", "{5C0E90AD-C6D7-4342-A40C-34074720030F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example.tests", "dotnet-pipeline-template-example.tests\dotnet-pipeline-template-example.tests.csproj", "{AC87506F-E693-4D91-B51D-065F272DB0E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example.tests", "test\dotnet-pipeline-template-example.tests\dotnet-pipeline-template-example.tests.csproj", "{AC87506F-E693-4D91-B51D-065F272DB0E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example.core", "dotnet-pipeline-template-example.core\dotnet-pipeline-template-example.core.csproj", "{5C457473-5261-435E-81BE-C6F7DB61F204}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-pipeline-template-example.core", "src\dotnet-pipeline-template-example.core\dotnet-pipeline-template-example.core.csproj", "{5C457473-5261-435E-81BE-C6F7DB61F204}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48654E95-2B73-466C-AFAF-0B335003C663}"
 EndProject
